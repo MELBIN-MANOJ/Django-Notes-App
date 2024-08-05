@@ -32,7 +32,7 @@ SECRET_KEY = env('SECRET_KEY', default=get_random_secret_key())
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['34.230.76.247:8000']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
